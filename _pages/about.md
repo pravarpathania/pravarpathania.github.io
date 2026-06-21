@@ -1,101 +1,118 @@
 ---
 permalink: /
 title: "Pravar Pathania"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## About Me
+<img src="/images/profile.png" style="float: right; max-width: 155px; border-radius: 50%; margin: 0 0 1.5em 2em;">
 
-I am an undergraduate researcher at IIIT-Delhi pursuing a B.Tech. in Electronics and VLSI, with a strong focus on computer architecture, memory systems, and hardware-software co-design. My work spans cache replacement policies, intermittent computing, CNN acceleration, and RISC-V system design. I'm particularly interested in developing energy-efficient architectures and exploring ML-guided optimizations for microarchitectural policies.
+I am an undergraduate researcher at IIIT-Delhi pursuing a B.Tech. in Electronics and VLSI. My work spans computer architecture, memory systems, hardware-software co-design, and edge inference accelerators. I am broadly interested in building efficient microarchitectural systems at the intersection of hardware and software.
 
-Currently, I am a Research Intern at IIT Bombay under [Prof. Biswabandan Panda](https://www.cse.iitb.ac.in/~biswa/), working on cache replacement policies for DDR5 memory systems using the ChampSim simulation infrastructure. I also work as a Research Assistant at IIIT-Delhi under Prof. Sujay Deb and Prof. Anuj Grover, where I've developed innovative checkpoint optimization techniques for intermittent computing systems. My work on EASE won **2nd Place (Undergraduate Category)** at the **IEEE/ACM MICRO 2025 Student Research Competition**.
+<a href="mailto:pravar22376@iiitd.ac.in" title="Email"><i class="fas fa-fw fa-envelope" style="font-size: 1.4em;"></i></a>&ensp;<a href="https://github.com/pravarpathania" title="GitHub"><i class="fab fa-fw fa-github" style="font-size: 1.4em;"></i></a>&ensp;<a href="https://linkedin.com/in/pravar-pathania-baa568257" title="LinkedIn"><i class="fab fa-fw fa-linkedin" style="font-size: 1.4em;"></i></a>
+
+---
+
+## News
+
+<table style="border: none; border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="white-space: nowrap; padding: 0.3em 1.5em 0.3em 0; color: #888; vertical-align: top;"><b>Jan 2026</b></td>
+    <td style="padding: 0.3em 0;">Started as Research Intern at IIT Bombay, working with Prof. Biswabandan Panda.</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap; padding: 0.3em 1.5em 0.3em 0; color: #888; vertical-align: top;"><b>Jan 2026</b></td>
+    <td style="padding: 0.3em 0;">Joined the Artifact Evaluation Committee for IEEE/ACM HPCA 2026.</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap; padding: 0.3em 1.5em 0.3em 0; color: #888; vertical-align: top;"><b>Nov 2025</b></td>
+    <td style="padding: 0.3em 0;">Won <b>2nd Place (Undergraduate)</b> at the ACM Student Research Competition, IEEE/ACM MICRO 2025.</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap; padding: 0.3em 1.5em 0.3em 0; color: #888; vertical-align: top;"><b>Sep 2025</b></td>
+    <td style="padding: 0.3em 0;">Paper accepted at IEEE International System-on-Chip Conference (SoCC) 2025.</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap; padding: 0.3em 1.5em 0.3em 0; color: #888; vertical-align: top;"><b>Jun 2025</b></td>
+    <td style="padding: 0.3em 0;">Started as Research Intern at the University of Sydney, working with Prof. Sri Parameswaran.</td>
+  </tr>
+</table>
 
 ---
 
 ## Research Interests
 
-- **Computer Architecture**: Memory systems, prefetching, and data-centric microarchitecture
-- **Hardware-Software Co-Design**: RISC-V systems, SoC design, and FPGA prototyping
-- **Edge Computing**: CNN accelerators and energy-efficient inference
-- **Intermittent Computing**: Checkpoint optimization and energy-harvesting systems
-- **ML-Guided Optimization**: Emerging techniques for microarchitectural policy optimization
+- Computer Architecture: memory systems and microarchitectural policy design
+- Hardware-Software Co-Design: RISC-V systems, SoC integration, FPGA prototyping
+- Edge Computing: CNN accelerators and energy-efficient inference
+- Intermittent Computing: checkpoint optimization for energy-harvesting systems
 
 ---
 
 ## Publications
 
-### **[CoDe-CS: A CNN Accelerator with Co-Designed Compute and Storage for Edge Efficiency](https://ieeexplore.ieee.org/document/11235460)**
-**IEEE International System-on-Chip Conference (SoCC) 2025**  
-*Pravar Pathania, Namit Gupta, Keshav Goel, Vishal Kumar, Sujay Deb*
+**EASE: An Energy-Aware Skip and Execute Mechanism for Efficient Intermittent Computing**  
+*Under submission — ICCAD 2026*  
+Pravar Pathania, Namit Gupta, Keshav Goel, Anuj Grover, Sujay Deb
 
-- Designed scalable CNN accelerator with parameterized PE arrays (4×4 to 16×16)
-- Achieved **9.6 GMAC/s peak throughput** and **23.52 GMAC/s/W power efficiency** on Xilinx Zedboard
-- Demonstrated **12× speedup** over Cortex-A9 for MobileNetV1 inference
-- Delivered exponential throughput scaling with minimal BRAM increase
+**[CoDe-CS: A CNN Accelerator with Co-Designed Compute and Storage for Edge Efficiency](https://ieeexplore.ieee.org/document/11235460)**  
+*IEEE International System-on-Chip Conference (SoCC) 2025*  
+Pravar Pathania, Namit Gupta, Vishal Kumar, Keshav Goel, Sujay Deb
+
+**Open Source SoC Design for Low-Cost Micro Weather Station**  
+*IEEE International Symposium on Smart Electronic Systems (iSES) 2024*  
+Namit Gupta, Pravar Pathania, Keshav Goel, Tarun Sharma, Sujay Deb
 
 ---
 
 ## Research Experience
 
-### **Cache Replacement Policy Research**
-*IIT Bombay | Jan 2026 – | Guide: Prof. Biswabandan Panda*
+**Research Intern, IIT Bombay** &nbsp;·&nbsp; *Jan 2026 – Present*  
+Guide: Prof. Biswabandan Panda  
+Investigating cache management policies for modern DRAM architectures.
 
-Investigating cache replacement policies for DDR5 memory systems:
-- Developing and evaluating replacement policies using the ChampSim simulation infrastructure
-- Analyzing memory access patterns to guide data-driven cache replacement decisions across memory-intensive workloads on DDR5 platforms
+**Research Intern, University of Sydney** &nbsp;·&nbsp; *Jun 2025 – Sep 2025*  
+Guide: Prof. Sri Parameswaran  
+Extended the Gemmini accelerator with custom RISC-V ISA extensions for mixed-precision DNN execution in Chipyard.
 
-### **Gemmini-Based DNN Training Framework**
-*University of Sydney | June 2025 – Sept 2025 | Guide: Prof. Sri Parameswaran*
+**Research Assistant, IIIT-Delhi** &nbsp;·&nbsp; *Jun 2025 – Present*  
+Guide: Prof. Sujay Deb, Prof. Anuj Grover  
+Designing adaptive checkpointing mechanisms for intermittent computing systems.
 
-Built DNN training framework in Chipyard with approximate computing support:
-- Contributed Chisel/Chipyard changes for dynamic multiplier switching via custom RISC-V instructions
-- Evaluated reduced-precision support (FP16/BF16) on Gemmini via ONNX Runtime
-- Validated approximate multipliers in simulation with ImageNet models
+**Research Assistant, IIIT-Delhi** &nbsp;·&nbsp; *May 2024 – May 2025*  
+Guide: Prof. Sujay Deb  
+Designed a co-optimised CNN accelerator with parameterised PE arrays and column-stationary dataflow for edge inference. Published at IEEE SoCC 2025.
 
-### **Checkpoint Optimization for Intermittent Computing (EASE)**
-*IIIT-Delhi | June 2025 – Dec 2025 | Guide: Prof. Sujay Deb and Prof. Anuj Grover*
+**Research Assistant, IIIT-Delhi** &nbsp;·&nbsp; *Dec 2023 – May 2024*  
+Guide: Prof. Sujay Deb  
+Designed and validated a SystemVerilog SoC around the Ibex core with memory-mapped peripherals on FPGA.
 
-Developed EASE, an energy-aware checkpoint optimization system for intermittent computing:
-- Implemented adaptive checkpointing with dirty-line tracking in ICEmu simulator
-- Extended cache controller with hazard-interception logic and sentinel-based energy monitoring
-- Achieved **78% NVM-write reduction** and **22.5% execution-time improvement**
-- Won 2nd place at IEEE/ACM MICRO 2025 Student Research Competition
-
-### **CNN Accelerator Design (CoDe-CS)**
-*IIIT-Delhi | Aug 2023 – May 2025 | Guide: Prof. Sujay Deb*
-
-Designed and evaluated a co-optimized CNN accelerator for edge inference:
-- Built parameterized PE arrays (4×4 to 16×16) with co-designed compute and storage
-- Achieved **9.6 GMAC/s peak throughput** and **23.52 GMAC/s/W power efficiency** on Xilinx Zedboard
-- Published at IEEE SoCC 2025
+---
 
 ## Education
 
 **Indraprastha Institute of Information Technology, Delhi**  
-*B.Tech. in Electronics and VLSI* | Nov 2022 – May 2026  
-
-
----
-
-## Technical Skills
-
-- **Simulation**: gem5, ChampSim, Chipyard, Spike RISC-V ISA Simulator, ICEmu
-- **HDL & RTL**: Verilog/SystemVerilog, Chisel, FPGA Prototyping
-- **EDA Tools**: Xilinx Vivado, Vitis HLS, Cadence Virtuoso, Eldo
-- **Programming**: C/C++, Python, Shell Scripting
-- **ML Frameworks**: PyTorch, ONNX Runtime
+B.Tech. in Electronics and VLSI &nbsp;·&nbsp; Nov 2022 – May 2026
 
 ---
 
 ## Awards & Honors
 
-- **2nd Prize, Student Research Competition (Undergraduate)** — IEEE/ACM MICRO 2025
+- **2nd Place (Undergraduate)**, ACM Student Research Competition — IEEE/ACM MICRO 2025
 
 ---
 
 ## Academic Service
 
 - **Artifact Evaluator**, IEEE/ACM HPCA 2026
+
+---
+
+## Technical Skills
+
+- **RTL Design:** Verilog, SystemVerilog, Chisel
+- **Architecture & Simulation:** ChampSim, gem5, Chipyard, Spike
+- **Programming:** C/C++, Python
+- **Tools:** Vivado, Vitis HLS, Verilator, Cadence Virtuoso
